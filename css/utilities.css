@@ -1,0 +1,67 @@
+/* Text colors */
+
+.text-primary {
+    color: #028745;
+
+}
+
+.text-secondary {
+    color: #0284d0;
+}
+/* button */
+
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border: radius 10px;
+}
+.btn:hover {
+    opacity: 0.6;
+
+}
+
+.btn-primary, .bg-primary {
+    background-color: #28a745;
+    color: #fff;
+
+}
+.btn-secondary, .bg-secondary {
+    background-color: #0284d0;
+    color: #fff;
+
+}
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+.flex-columns .row {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-columns .column .column-1 {}
+.flex-columns .column .column-2 {
+    height: 100%;
+} 
